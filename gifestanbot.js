@@ -12,6 +12,7 @@ token = token.trim();
 // Setup polling way
 var bot = new TelegramBot(token, {polling: true});
 
+
 var queue = [];
 
 var history = [];
