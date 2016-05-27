@@ -9,7 +9,10 @@ var uuid = require('node-uuid');
 var link = null;
 var token = fs.readFileSync('key') + '';
 token = token.trim();
+console.log(token);
+console.log(token);
 // Setup polling way
+/*
 var bot = new TelegramBot(token, {polling: true});
 
 
@@ -224,3 +227,4 @@ function sendSchedule()
 setInterval(sendSchedule, 60 * 60 * 1000);
 //send(process.argv[2], process.argv[3]);
 
+*/
